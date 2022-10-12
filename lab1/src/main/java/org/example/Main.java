@@ -1,3 +1,5 @@
+package org.example;
+
 public class Main {
     public static void main(String[] args) {
         float [] x = new float[19];
@@ -23,11 +25,12 @@ public class Main {
                 }
             }
         }
-        for( int i= 0; i < 19; i++) {
-            for (int j = 0; j < 9; j++) {
-                String str = String.format("%.2f", a1[i][j]);
-                System.out.println(str);
+        for( float i[] : a1) {
+            for (float j : i) {
+                System.out.printf("%.2f", j);
+                System.out.print(" ");
             }
+            System.out.println();
         }
     }
 }
