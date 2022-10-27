@@ -6,7 +6,7 @@ public class Main {
         short[] a = new short [19];
         float[][] a1 = new float[19][9];
 
-        for( int i = 0; i<x.length; i++){
+        for( int i = 0; i < x.length; i++){
             x[i] = (float)((Math.random() * 25) - 6);
         }
 
